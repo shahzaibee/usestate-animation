@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.element {
+  width: 100%;
+  height: 100%;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: mediumaquamarine;
+  }
+  15% {
+    background-color: lightcoral;
+  }
+  30% {
+    background-color: brown
+  }
+  45% {
+    background-color: slategray;
+  }
+  60% {
+    background-color: khaki;
+  }
+  75% {
+    background-color: white;
+  }
+}
+
+html
+body {
+  height: 100%;
+}
